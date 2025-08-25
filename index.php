@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Porto<span>folio</span></a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Keahlian</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+                    <li class="nav-item">
+                        <div class="theme-toggle-container">
+                            <label class="theme-toggle">
+                                <input type="checkbox" id="theme-toggle">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hai, Saya <span>Vanzha Feby Daniar</span></h1>
+                <p class="hero-description">Lulusan D3 Manajemen Informatika dengan keahlian di bidang administrasi dan pembuatan website, serta pemahaman dalam pengelolaan data dan pengembangan situs web responsif.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">Lihat Karya Saya <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-social">
+          <a href="https://wa.me/6281216559792" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/vanzhaa_/?__pwa=1#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/vanzha-feby-daniar-03754b378/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/VanzhaDaniar" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+        
+        <a href="#about" class="scroll-down">
+            <span>Scroll Ke Bawah</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="section-subtitle">Mari berkenalan lebih dekat dengan saya dan latar belakang saya</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="1000004907.jpg" alt="About Me">
+                </div>
+                
+                <div class="about-text">
+                    <h3>Web Developer & Administrasi</h3>
+                    <p>Saya memiliki passion dalam menciptakan solusi digital yang efektif dan user-friendly. Dengan latar belakang Manajemen Informatika, saya terus belajar dan mengembangkan keterampilan di bidang pengembangan website serta administrasi.</p>
+                    <p>Saya memfokuskan diri pada pembuatan website responsif dan mudah digunakan, serta mempelajari pengelolaan administrasi agar lebih terstruktur. Bagi saya, menggabungkan kemampuan teknis dan manajerial adalah kunci untuk menghasilkan solusi bermanfaat.</p>
+                    <p>Saya selalu tertarik mengikuti perkembangan teknologi terbaru dan berkomitmen untuk terus meningkatkan keterampilan, agar siap memberikan kontribusi nyata di dunia digital.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="127">0</div>
+                            <div class="stat-text">Website Dibuat</div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="98">0</div>
+                            <div class="stat-text">Sertifikat</div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-text">Tahun Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <p class="section-subtitle">Berbagai kemampuan teknis dan soft skills yang saya kuasai</p>
+            
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Web Development</h3>
+                    <p class="skill-description">HTML, CSS, JavaScript, dan berbagai framework modern lainnya.</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p class="skill-description">Merancang antarmuka yang intuitif dan pengalaman pengguna yang menarik dengan tools seperti Figma dan Canva.</p>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-icon">
+                      <i class="fas fa-briefcase"></i>
+                  </div>
+                  <h3 class="skill-title">Administrasi</h3>
+                  <p class="skill-description">Pengelolaan dokumen, penyusunan laporan, manajemen data, dan pengoperasian aplikasi perkantoran.</p>
+              </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portofolio Saya</h2>
+            <p class="section-subtitle">Kumpulan project terbaik yang telah saya selesaikan</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="app">Aplikasi Mobile</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 1" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Website E-commerce</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 2" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Redesign Aplikasi</h3>
+                        <p class="portfolio-category">UI/UX Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 3" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Aplikasi Fitness</h3>
+                        <p class="portfolio-category">Aplikasi Mobile</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 4" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Blog Platform</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 5" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Brand Identity</h3>
+                        <p class="portfolio-category">UI/UX Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 6" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Travel App</h3>
+                        <p class="portfolio-category">Aplikasi Mobile</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p class="section-subtitle">Mari berkolaborasi untuk project Anda selanjutnya</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Lokasi</h3>
+                            <p>Kabupaten Nganjuk, Jawa Timur, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vanzhafebyd@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>+62 812 1655 9792</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3>Website</h3>
+                            <p>www.Vanzhafebydaniar.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" action="send.php" method="POST">
+                  <div class="form-group">
+                      <input type="text" name="nama" class="form-control" placeholder="Nama Lengkap" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Alamat Email" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="subjek" class="form-control" placeholder="Subjek" required>
+                  </div>
+                  <div class="form-group">
+                      <textarea name="pesan" class="form-control" placeholder="Pesan Anda" required></textarea>
+                  </div>
+                  <button type="submit" class="btn">Kirim Pesan</button>
+              </form>
+              
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">Porto<span>folio</span></a>
+                    <p>Saya adalah web developer dan UI/UX designer yang berdedikasi menciptakan pengalaman digital yang luar biasa, sekaligus memiliki keterampilan dalam administrasi dan pengelolaan data.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/6281216559792" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/vanzhaa_/?__pwa=1#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vanzha-feby-daniar-03754b378/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/VanzhaDaniar" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#skills">Keahlian</a></li>
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Berlangganan</h3>
+                    <p>Berlangganan newsletter saya untuk mendapatkan update terbaru.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Alamat Email" required>
+                        <button type="submit" class="btn">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Vanzha Feby Daniar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
