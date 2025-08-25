@@ -132,8 +132,9 @@ img {
     font-size: 1.1rem;
 }
 
+/* Tombol utama */
 .btn {
-    display: inline-block;
+    display: block; /* agar margin auto bekerja */
     padding: 12px 30px;
     background: var(--gradient);
     color: var(--light);
@@ -143,7 +144,10 @@ img {
     border: none;
     cursor: pointer;
     box-shadow: var(--shadow);
-    margin-left: 60px;
+
+    /* Posisi desktop: tengah horizontal dengan sedikit geser kiri */
+    margin: 20px auto 0 auto; /* top 20px, horizontal auto */
+    width: fit-content;
 }
 
 .btn:hover {
@@ -160,11 +164,41 @@ img {
     transform: translateX(5px);
 }
 
+/* Tombol outline */
 .btn-outline {
+    display: block;
     background: transparent;
     border: 2px solid var(--primary);
     color: var(--primary);
-    margin-right: 60px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+
+    /* Posisi desktop: tengah horizontal dengan sedikit geser kanan */
+    margin: 20px auto 0 auto;
+    width: fit-content;
+}
+
+/* Responsif: layar tablet / HP */
+@media screen and (max-width: 768px) {
+    .btn,
+    .btn-outline {
+        margin: 5px auto;      /* tengah horizontal & jarak antar tombol */
+        padding: 10px 20px;     /* lebih kecil untuk layar kecil */
+        width: 80%;              /* tombol menyesuaikan lebar layar */
+        text-align: center;      /* teks di tengah */
+    }
+}
+
+/* HP kecil (optional) */
+@media screen and (max-width: 480px) {
+    .btn,
+    .btn-outline {
+        width: 90%;              /* lebih lebar agar tombol nyaman di HP */
+        padding: 10px 15px;
+    }
 }
 
 .btn-outline:hover {
@@ -337,7 +371,23 @@ input:checked + .toggle-slider:before {
     overflow: hidden;
     background: linear-gradient(135deg, rgba(108, 99, 255, 0.05) 0%, rgba(255, 101, 132, 0.05) 100%);
     text-align: center; /* Agar teks di tengah */
+
+    /* Tambahan untuk geser ke bawah */
+    padding-top: 60px; /* sesuaikan tinggi navbar */
+    box-sizing: border-box;
 }
+
+/* Responsif untuk layar kecil / HP */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 100px; /* lebih turun di HP agar tidak ketutupan */
+        height: auto;       /* agar tinggi mengikuti konten */
+        min-height: 80vh;   /* tetap cukup tinggi untuk tampilan bagus */
+        padding-left: 15px; /* jarak dari sisi layar */
+        padding-right: 15px;
+    }
+}
+
 
 .hero .container {
     width: 100%;
